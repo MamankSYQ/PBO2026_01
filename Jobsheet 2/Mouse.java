@@ -1,6 +1,7 @@
 public class Mouse {
     public String merk;
     public String tipe;
+    public int ukuran;
     public int bobot;
     public String jenis;
     public int dpi;
@@ -11,6 +12,7 @@ public class Mouse {
     public void info(){
         System.out.println("Merk Mouse                  : "+merk);
         System.out.println("Tipe Mouse                  : "+tipe);
+        System.out.println("Ukuran Mouse                : "+ukuran+" cm");
         System.out.println("Bobot                       : "+bobot+" gram");
         System.out.println("Jenis Mouse                 : "+jenis);
         System.out.println("DPI Maksimal                : "+dpi);
