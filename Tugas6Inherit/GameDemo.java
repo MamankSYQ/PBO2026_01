@@ -1,8 +1,8 @@
 package Tugas6Inherit;
 public class GameDemo {
     public static void main(String[] args) {
-        Pc pc1 = new Pc("Dota 2", "MOBA", 35.5);
-        Pc pc2 = new Pc("Zuma", "Puzzle", 0.015);
+        Pc pc1 = new Pc("Dota 2", "MOBA", 35.5, false);
+        Pc pc2 = new Pc(null, null, 0, false);
         pc1.nyalakanMouse();
         System.out.println("Mouse aktif: " + pc1.getMouse());
         pc1.play();
@@ -10,6 +10,11 @@ public class GameDemo {
         pc1.klikKanan();
         pc1.scrollAtas();
         pc1.scrollBawah();
+        System.out.println();
+        pc2.info();
+        pc2.setJudul("Zuma");
+        pc2.setGenre("Adventure");
+        pc2.setSize(1);
         System.out.println();
         pc2.info();
 
