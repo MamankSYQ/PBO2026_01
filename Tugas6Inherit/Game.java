@@ -4,10 +4,10 @@ public class Game {
     private String genre;
     private double size;
 
-    public Game(String judul, String genre, double size) {
-    this.judul = judul;
-    this.genre = genre;
-    this.size = size;
+    public Game(String judul, String genre, double size){
+        this.judul = judul;
+        this.genre = genre;
+        this.size = size;
     }
 
     public String getJudul(){
