@@ -15,18 +15,11 @@ public class Pc extends Game{
         this.mouse = mouse;
     }
 
-    public boolean getMouse() {
-        if (mouse==true) {
-            System.out.println("Mouse terhubung");
-            return mouse;
-        }
-        else{
-            System.out.println("Mouse tidak terhubung");
-            return mouse;
-        }
+    public boolean getMouse(){
+        return mouse;
     }
  
-    public void nyalakanMouse() {
+    public void nyalakanMouse(){
         mouse = true;
         System.out.println("Mouse dinyalakan");
     }

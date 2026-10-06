@@ -12,11 +12,15 @@ public class GameDemo {
         pc1.scrollBawah();
         System.out.println();
         pc2.info();
+        System.out.println("Mouse aktif: " + pc2.getMouse());
         pc2.setJudul("Zuma");
         pc2.setGenre("Adventure");
         pc2.setSize(1);
         System.out.println();
+        pc2.nyalakanMouse();
+        System.out.println();
         pc2.info();
+        System.out.println("Mouse aktif: " + pc2.getMouse());
 
         System.out.println();
         Mobile mobile1 = new Mobile("Subway Surfer", "Adventure", 0.2);
