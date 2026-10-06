@@ -2,7 +2,7 @@ package Tugas6Inherit;
 public class GameDemo {
     public static void main(String[] args) {
         Pc pc1 = new Pc("Dota 2", "MOBA", 35.5, false);
-        Pc pc2 = new Pc(null, null, 0, false);
+        Pc pc2 = new Pc();
         pc1.nyalakanMouse();
         System.out.println("Mouse aktif: " + pc1.getMouse());
         pc1.play();

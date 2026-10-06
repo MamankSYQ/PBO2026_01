@@ -5,6 +5,11 @@ public class Pc extends Game{
     private boolean tombolKanan;
     private boolean scrollWheel;
 
+    public Pc(){
+        super(null, null, 0.0);
+        this.mouse = false;
+    }
+
     public Pc(String judul, String genre, double size, boolean mouse){
         super(judul, genre, size);
         this.mouse = mouse;
