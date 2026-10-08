@@ -40,7 +40,6 @@ public class Game {
         System.out.println("Size  : " + size + " GB");
     }
 
-    @Override 
     public void play(){
         System.out.println(judul+" sedang dimainkan");
     }
