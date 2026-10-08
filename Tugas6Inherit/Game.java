@@ -34,13 +34,14 @@ public class Game {
         this.size = size; 
     }
 
-    public final void info(){
+    public void info(){
         System.out.println("Judul : " + judul);
         System.out.println("Genre : " + genre);
         System.out.println("Size  : " + size + " GB");
     }
 
+    @Override 
     public void play(){
-        System.out.println(getJudul()+" sedang dimainkan");
+        System.out.println(judul+" sedang dimainkan");
     }
 }

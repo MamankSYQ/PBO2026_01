@@ -4,14 +4,17 @@ public class Pc extends Game{
     private boolean tombolKiri;
     private boolean tombolKanan;
     private boolean scrollWheel;
+    private String  store;
 
     public Pc(){
         super(null, null, 0.0);
+        this.store = null;
         this.mouse = false;
     }
 
-    public Pc(String judul, String genre, double size, boolean mouse){
+    public Pc(String judul, String genre, double size, String store, boolean mouse){
         super(judul, genre, size);
+        this.store = store;
         this.mouse = mouse;
     }
 
@@ -80,6 +83,12 @@ public class Pc extends Game{
         return scrollWheel;
     }
 
+    public void info(){
+        super.info();
+        System.out.println("Store : "+store);
+    }
+
+    @Override 
     public void play(){
         if (mouse==true){
             System.out.println(getJudul() + " sedang dimainkan di PC");

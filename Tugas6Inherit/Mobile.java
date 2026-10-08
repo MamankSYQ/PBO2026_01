@@ -1,10 +1,12 @@
 package Tugas6Inherit;
-public class Mobile extends Game{
+public final class Mobile extends Game{
     private boolean touchScreen;
     private String gesture;
+    private String versi;
 
-    public Mobile(String judul, String genre, double size){
+    public Mobile(String judul, String genre, double size, String versi){
         super(judul, genre, size);
+        this.versi = versi;
     }
 
     public boolean getTouchscreen(){
@@ -43,6 +45,12 @@ public class Mobile extends Game{
         return true;
     }
     
+    public void info(){
+        super.info();
+        System.out.println("Versi : "+versi);
+    }
+
+    @Override
     public void play(){
         System.out.println(getJudul()+" sedang dimainkan di mobile");
     }
