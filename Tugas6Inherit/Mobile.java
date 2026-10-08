@@ -55,3 +55,4 @@ public final class Mobile extends Game{
         System.out.println(getJudul()+" sedang dimainkan di mobile");
     }
 }
+//
