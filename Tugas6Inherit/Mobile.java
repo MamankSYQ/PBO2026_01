@@ -45,6 +45,7 @@ public final class Mobile extends Game{
         return true;
     }
     
+    @Override 
     public void info(){
         super.info();
         System.out.println("Versi : "+versi);
@@ -52,7 +53,7 @@ public final class Mobile extends Game{
 
     @Override
     public void play(){
+        super.play();
         System.out.println(getJudul()+" sedang dimainkan di mobile");
     }
 }
-//

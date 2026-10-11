@@ -32,8 +32,10 @@ public class GameDemo {
         mobile1.slideKiri();
         System.out.println();
         mobile1.info();
+        mobile1.play();
         System.out.println();
         pc1.info();
+        pc1.play();
     }
 }
-//
+//jbsht 7

@@ -83,6 +83,7 @@ public class Pc extends Game{
         return scrollWheel;
     }
 
+    @Override 
     public void info(){
         super.info();
         System.out.println("Store : "+store);
@@ -98,4 +99,3 @@ public class Pc extends Game{
         }
     }
 }
-//

@@ -48,3 +48,4 @@ public class Game {
         System.out.println(judul+" sedang dimainkan");
     }
 }
+//jbsht 7
