@@ -1,5 +1,5 @@
 package Tugas6Inherit;
-public class Game {
+public abstract class Game {
     private String judul;
     private String genre;
     private double size;
@@ -44,8 +44,5 @@ public class Game {
         System.out.println("Size  : " + size + " GB");
     }
 
-    public void play(){
-        System.out.println(judul+" sedang dimainkan");
-    }
+    public abstract void play();
 }
-//jbsht 7
