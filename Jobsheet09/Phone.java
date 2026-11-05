@@ -1,7 +1,7 @@
-package Jobsheet11;
+package Jobsheet09;
 public interface Phone {
-    int maxVolume = 100;
-    int minVolume = 0;
+    final int maxVolume = 100;
+    final int minVolume = 0;
  
     void powerOn();
     void powerOff();
